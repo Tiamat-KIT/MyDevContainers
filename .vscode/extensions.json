@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "akimeaki.devcontainer-install-local-extensions",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode-remote.remote-ssh-edit",
+        "brigit.devcontainer-image-convert",
+        "benfiola.devcontainer-utils"
+    ]
+}
