@@ -1,6 +1,19 @@
 {
-    "name": "utakata-rust-devcontainer",
-    "build": {
-        
+    "name": "utakata_web_bun_devcontainer",
+    
+    "dockerComposeFile": "compose.yaml",
+    
+    "service": "utakata_web_bun_devcontainer",
+    "workspaceFolder": "/workspace",
+    "remoteUser": "utakata",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Pandy.bun",
+                "oven.bun-vscode",
+                "biomejs.biome",
+                "dprint.dprint"
+            ]
+        }
     }
 }

@@ -1,0 +1,12 @@
+services:
+  utakata_web_bun_devcontainer:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: utakata_web_bun_devcontainer_image
+    container_name: utakata_web_bun_devcontainer_container
+    volumes:
+      - ../workspace:/workspace
+    working_dir: /workspace
+    tty: true
+    user: utakata
