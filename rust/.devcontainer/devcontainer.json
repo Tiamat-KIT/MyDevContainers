@@ -9,7 +9,8 @@
             "extensions": [
                 "rust-lang.rust-analyzer",
                 "bungcip.better-toml",
-                "serayuzgur.crates"
+                "serayuzgur.crates",
+                "PolyMeilex.wgsl"
             ]
         }
     }
