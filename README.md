@@ -5,6 +5,6 @@
 一部分だけCloneすればいいので、以下のコマンドを使えばＯＫです
 > 以下のコマンドはhttps://zenn.dev/shti_f/articles/4d61be4da742ea を参考にしました
 ```bash
-$ git clone --filter=blob:none --sparse Tiamat-KIT/MyDevContainers.git
+$ git clone --filter=blob:none --sparse Tiamat-KIT/MyDevContainers
 $ git sparse-checkout set ${DIRECTORY_NAME}
 ```
