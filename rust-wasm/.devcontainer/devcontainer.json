@@ -17,7 +17,8 @@
                 "Zerotaskx.rust-extension-pack",
                 "jinxdash.prettier-rust",
                 "formulahendry.code-runner",
-                "kevinkyang.auto-comment-blocks"
+                "kevinkyang.auto-comment-blocks",
+                "PolyMeilex.wgsl"
             ]
         }
     }
